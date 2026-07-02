@@ -1,0 +1,25 @@
+services:
+  # The trading daemon — runs continuously, writes trades + equity snapshots.
+  daemon:
+    build: .
+    container_name: congress-daemon
+    command: python daemon.py
+    env_file: [.env]
+    environment:
+      DATA_DIR: /app/data
+    volumes:
+      - ./data:/app/data        # shared data (trades, prices, logs)
+    restart: unless-stopped
+
+  # The web dashboard — http://localhost:5000
+  dashboard:
+    build: .
+    container_name: congress-dashboard
+    command: python dashboard.py
+    environment:
+      DATA_DIR: /app/data
+    volumes:
+      - ./data:/app/data        # reads the same data the daemon writes
+    ports:
+      - "5000:5000"
+    restart: unless-stopped

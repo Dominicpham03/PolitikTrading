@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1780096633887,
+    "timestamp": 1780096633.8870866,
+    "ticker": "TSLA",
+    "side": "BUY",
+    "shares": 0.853279,
+    "price": 234.39,
+    "notional": 200.0,
+    "reason": "Michael McCaul disclosed a Purchase",
+    "simulated": true
+  },
+  {
+    "id": 1780442233887,
+    "timestamp": 1780442233.8870866,
+    "ticker": "AAPL",
+    "side": "BUY",
+    "shares": 1.100171,
+    "price": 181.79,
+    "notional": 200.0,
+    "reason": "Dan Crenshaw disclosed a Purchase",
+    "simulated": true
+  },
+  {
+    "id": 1780787833887,
+    "timestamp": 1780787833.8870866,
+    "ticker": "GOOGL",
+    "side": "BUY",
+    "shares": 0.598516,
+    "price": 167.08,
+    "notional": 100.0,
+    "reason": "Tommy Tuberville disclosed a Purchase",
+    "simulated": true
+  },
+  {
+    "id": 1781133433887,
+    "timestamp": 1781133433.8870866,
+    "ticker": "MSFT",
+    "side": "BUY",
+    "shares": 0.512623,
+    "price": 390.15,
+    "notional": 200.0,
+    "reason": "Michael McCaul disclosed a Purchase",
+    "simulated": true
+  },
+  {
+    "id": 1781479033887,
+    "timestamp": 1781479033.8870866,
+    "ticker": "AMZN",
+    "side": "BUY",
+    "shares": 0.87433,
+    "price": 171.56,
+    "notional": 150.0,
+    "reason": "Nancy Pelosi disclosed a Purchase",
+    "simulated": true
+  },
+  {
+    "id": 1781824633887,
+    "timestamp": 1781824633.8870866,
+    "ticker": "META",
+    "side": "BUY",
+    "shares": 0.326349,
+    "price": 459.63,
+    "notional": 150.0,
+    "reason": "Ro Khanna disclosed a Purchase",
+    "simulated": true
+  }
+]
